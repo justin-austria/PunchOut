@@ -1,0 +1,54 @@
+body {
+  background-color: #CCCCCC;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+}
+
+#display-main {
+  width: 648px;
+  margin: auto;
+}
+
+#display-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+#canvas-container {
+  height: 479px;
+  width: 648px;
+  margin:auto;
+  position: relative;
+}
+
+#canvas-bot {
+  z-index: 0;
+}
+
+#canvas-mid {
+  z-index:  1;
+}
+
+#canvas-top {
+  z-index:  2;
+}

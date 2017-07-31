@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Punch Out Lite </title>
+    <link rel="stylesheet" href="lib/css/display.css">
+  </head>
+  <body>
+    <div id="display-main">
+      <div id="display-header">
+        <ul id="health-widget">
+          <li>
+            Player Health
+            <div class="health-meter">
+
+            </div>
+          </li>
+          <li>
+            Opponent Health
+            <div class="health-meter">
+
+            </div>
+          </li>
+        </ul>
+        <div id="timer-widget">
+          Timer
+        </div>
+      </div>
+      <div id="canvas-container">
+        <canvas id="canvas-bot" class="a" width="648" height="479"></canvas>
+        <canvas id="canvas-mid" class="b" width="648" height="479"></canvas>
+        <canvas id="canvas-top" class="c"  width="648" height="479"></canvas>
+      </div>
+    </div>
+
+
+    <script type="application/javascript" src="lib/bundle.js"></script>
+  </body>
+</html>
