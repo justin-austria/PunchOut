@@ -48,4 +48,4 @@ Some potential functionality additions found in the original game that could be 
 - Add more detailed win conditions: TKO (3 knock-outs vs 1 for automatic win)/ Decision win (points system), opponent has chance to get up after knockouts.
 - Expand player moveset: Left body blow, Right body blow, Duck, Block, Star Punch.
 - Add opponents with different / more advanced fighting patterns. (Increasing Difficulty)
-- Heart meter system (player stamina)
+- Add player chance to get up on knockout, referee down count animation

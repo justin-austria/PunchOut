@@ -113,3 +113,8 @@ h1 {
 .mute-menu h3:last-child:hover {
   color: #50E661;
 }
+
+.help-txt {
+  font-size: 10px;
+  color: #50E661;
+}
