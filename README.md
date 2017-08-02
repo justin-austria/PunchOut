@@ -15,9 +15,9 @@ There are several features that represent the core MVP of the game:
 
 - Little Mac's four moves and animation (Left and right jab, left and right dodge)
 - Opponent's moves and animation (Fixed pattern of left and right jabs fired of at set intervals that must be dodged)
-- Timer that displays remaining time until end of bout.
-- Player and opponent health meters and knockdown after depletion.
-- Player chance to get up after knockdown and referee count animation.
+- Player and opponent health meters and win/loss after depletion.
+- Energy meter that depletes on punch and restores on successful dodge.
+- Round start / opponent intro animation.
 
 ### Wireframes
 
@@ -37,15 +37,15 @@ This project will completed with minimal library use. Vanilla JavaScript will be
 
 **Day 2**: Have background music and mute/unmute functionality working. Get keyboard inputs working to properly animate player punch and dodge animation. Write opponent move pattern and complete opponent punch animation.
 
-**Day 3**: Begin writing out game logic and animation for hits and dodges, health meters, bout timer and knockdowns.
+**Day 3**: Begin writing out game logic and animation for hits and dodges, health meters, energy meter, and knockdowns.
 
-**Day 4**: Finish writing out previous day's game logic and animation. Write logic for match win/loss and getting up from knock down. Animate referee count.
+**Day 4**: Finish writing out previous day's game logic and animation. Write logic for match win/loss. Animate opponent intro.
 
 
 ### Bonus features
 
 Some potential functionality additions found in the original game that could be added:
 - Add more detailed win conditions: TKO (3 knock-outs vs 1 for automatic win)/ Decision win (points system), opponent has chance to get up after knockouts.
--  Expand player moveset: Left body blow, Right body blow, Duck, Block, Star Punch.
+- Expand player moveset: Left body blow, Right body blow, Duck, Block, Star Punch.
 - Add opponents with different / more advanced fighting patterns. (Increasing Difficulty)
 - Heart meter system (player stamina)

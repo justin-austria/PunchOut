@@ -9,31 +9,8 @@
   </head>
   <body>
     <div id="display-main">
-      <div id="display-header">
-        <ul id="health-widget">
-          <li>
-            Glass Joe
-            <div id="joe-health">
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-            </div>
-          </li>
-          <li>
-            Little Mac
-            <div id="mac-health">
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-              <i class="fa fa-heart"> </i>
-            </div>
-          </li>
-        </ul>
-        <div id="timer-widget">
-          Round 1:
-          2:00
-        </div>
+      <div class="title">
+        <h1> Punch Out Lite </h1>
       </div>
       <div id="canvas-container">
         <canvas id="canvas-bot" class="a" width="648" height="479"></canvas>
@@ -42,18 +19,46 @@
         <canvas id="canvas-top" class="d"  width="648" height="479"></canvas>
       </div>
     </div>
-    <div class="control-display">
-      <ul>
-        <li> A: Left Punch </li>
-        <li> D: Right Punch </li>
-        <li> J: Left Dodge </li>
-        <li> L: Right Dodge </li>
-        <li> Spacebar: Get Up! </li>
+    <div id="display-header">
+      <ul id="health-widget">
+        <li>
+          Glass Joe
+          <div id="joe-health">
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+          </div>
+        </li>
+        <li>
+          Little Mac
+          <div id="mac-health">
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+            <i class="fa fa-heart"> </i>
+          </div>
+        </li>
       </ul>
+      <div class="control-display">
+        <ul>
+          <li><span class="key-control"> A: </span> Left Punch </li>
+          <li><span class="key-control"> D: </span> Right Punch </li>
+          <li><span class="key-control"> J: </span> Left Dodge </li>
+          <li><span class="key-control"> L: </span> Right Dodge </li>
+        </ul>
+      </div>
+      <div id="mac-energy">
+        <p> Energy Count: </p>
+        <i class="fa fa-hand-rock-o"></i>
+        <i class="fa fa-hand-rock-o"></i>
+        <i class="fa fa-hand-rock-o"></i>
+        <i class="fa fa-hand-rock-o"></i>
+        <i class="fa fa-hand-rock-o"></i>
+        <i class="fa fa-hand-rock-o"></i>
+      </div>
     </div>
-    <div class="title">
-      <h1> Punch Out Lite </h1>
-    </div>
+
 
     <div class="mute-menu">
       <h3 id="mute-bgm"> Mute </h3>

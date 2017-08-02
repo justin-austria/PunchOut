@@ -32,12 +32,22 @@ canvas {
 
 #display-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 947px;
+  margin: auto;
 }
 
-#timer-widget {
-  display: flex;
-  align-items: center;
+#health-widget i {
+  color: #DE0000;
+}
+
+#about-widget {
+  margin-left: 50px;
+  flex: 1;
+}
+
+#mac-energy i {
+  color: #50E661;
 }
 
 #canvas-container {
@@ -59,12 +69,44 @@ canvas {
   z-index:  2;
 }
 
+.control-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-display ul {
+  padding: 0;
+}
+
+.control-display ul li {
+  padding-bottom: 5px;
+}
+
+.key-control {
+  color: yellow;
+}
+
+
 .title {
   text-align: center;
   margin: auto;
   color: #DE0000;
 }
 
+.mute-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
 .mute-menu h3 {
   cursor: pointer;
+}
+
+.mute-menu h3:first-child:hover {
+  color: #DE0000;
+}
+
+.mute-menu h3:last-child:hover {
+  color: #50E661;
 }
