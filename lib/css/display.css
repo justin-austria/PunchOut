@@ -87,11 +87,14 @@ canvas {
   color: yellow;
 }
 
+h1 {
+  color: #DE0000;
+}
 
 .title {
   text-align: center;
   margin: auto;
-  color: #DE0000;
+
 }
 
 .mute-menu {
