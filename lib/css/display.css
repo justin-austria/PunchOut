@@ -118,3 +118,15 @@ h1 {
   font-size: 10px;
   color: #50E661;
 }
+
+.hidden {
+  display: none;
+
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  z-index: 1000;
+}

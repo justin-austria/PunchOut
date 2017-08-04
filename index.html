@@ -14,6 +14,16 @@
         <p> Time your punches correctly to defeat your opponent!</p>
       </div>
       <div id="canvas-container">
+        <div class="modal hidden" id="win-modal">
+          <h3> Congrats!</h3>
+          <p> You beat Glass Joe... more opponents coming soon! </p>
+
+        </div>
+        <div class="modal hidden" id="lose-modal">
+          <h3> You Lose...  </h3>
+          <p> Try timing your punches for when Glass Joe winds up. Refresh to try again!</p>
+        </div>
+
         <canvas id="canvas-bot" class="a" width="648" height="479"></canvas>
         <canvas id="canvas-mid" class="b" width="648" height="479"></canvas>
         <canvas id="canvas-mid-b" class="c" width="648" height="479"></canvas>
