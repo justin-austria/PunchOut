@@ -4,6 +4,19 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #50E661;
+}
+
+a > *:hover {
+  transform: scale(1.2);
+}
+
 li {
   list-style-type: none;
 }
