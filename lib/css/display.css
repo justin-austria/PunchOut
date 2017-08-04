@@ -39,6 +39,7 @@ canvas {
 
 #health-widget i {
   color: #DE0000;
+  padding-bottom: 5px;
 }
 
 #about-widget {
